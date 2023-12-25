@@ -17,6 +17,6 @@
 
 # Recursos
 
-docker run -d --name Postgres -p 5432:5432 -e POSTGRES_PASSWORD=!qaz2wsx -e POSTGRES_USER=Mariogomes -e POSTGRES_DB=apirestnodejs postgres
+docker run -d --name Postgres -p 5432:5432 -e POSTGRES_PASSWORD=mypassword -e POSTGRES_USER=myusername -e POSTGRES_DB=mydatabase postgres
 
-npx prisma migrate dev --name Edittetransaction init
+npx prisma migrate dev --name  init
